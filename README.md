@@ -19,7 +19,7 @@ In your terraform script:
 ```
 
 module "aws_basic_network" {
-  source = "github.com/ecsdigital-demo-terraform-modules/terraform-aws-demo-basic-network"terraform-aws-demo-basic-network.git"
+    source = "github.com/ecsdigital-demo-terraform-modules/terraform-aws-demo-basic-network"
 
 # VARIABLE DEFINITION
 
