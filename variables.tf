@@ -34,7 +34,7 @@ variable "additional_public_cidrs" {
 }
 
 variable "map_public_ip_on_launch" {
-    type = "bool"
+    type = "string"
     description = "Specify true to indicate that instances launched into the subnet should be assigned a public IP address"
     default = "true"
 }
