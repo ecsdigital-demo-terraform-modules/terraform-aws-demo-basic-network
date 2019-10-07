@@ -40,7 +40,7 @@ This module will automatically identify the public ip address you are running th
 | aws\_core\_subnet\_cidr1 | CIDR block for first subnet of AWS Core network | string | n/a | yes |
 | aws\_core\_vpc\_cidr | VPC CIDR block for the AWS Core VPC | string | n/a | yes |
 | environment\_tag | Value that will be tagged as ENVIRONMENT, on all AWS resources | string | n/a | yes |
-| map\_public\_ip\_on\_launch | Specify true to indicate that instances launched into the subnet should be assigned a public IP address | bool | `"true"` | no |
+| map\_public\_ip\_on\_launch | Specify true to indicate that instances launched into the subnet should be assigned a public IP address | string | `"true"` | no |
 | owner\_tag | Value that will be tagged as OWNER, on all AWS resources | string | n/a | yes |
 | prefix\_tag | Prefix string added to Name tag | string | n/a | yes |
 
